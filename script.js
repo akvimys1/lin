@@ -55,10 +55,11 @@ setTimeout(() => {
 
   panel.classList.add("show");
 
-  panel.style.backgroundImage = `url(${person.background})`;
+  panel.style.backgroundImage = "linear-gradient(to bottom, black, #01017f, black)";
   panel.style.backgroundSize = "cover";
   panel.style.backgroundPosition = "center";
   panel.style.backgroundRepeat = "no-repeat";
+  panel.style.backgroundBlendMode = "normal";
 
   panel.classList.add("show");
   
