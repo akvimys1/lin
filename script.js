@@ -55,12 +55,10 @@ setTimeout(() => {
 
   panel.classList.add("show");
 
-  panel.style.backgroundImage = "linear-gradient(to bottom, black, #01017f, black)";
+  panel.style.backgroundImage = `url(${person.background})`;
   panel.style.backgroundSize = "cover";
   panel.style.backgroundPosition = "center";
   panel.style.backgroundRepeat = "no-repeat";
-  panel.style.backgroundBlendMode = "normal"; // нормальный режим без затемнения
-  panel.style.backgroundColor = ""; // убираем затемнение
 
   panel.classList.add("show");
   
