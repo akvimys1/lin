@@ -5,31 +5,31 @@ const people = [
     name: "Ruslan",
     desc: "Linux fan, always high tab.",
     img: "fotos/ruslan.jpg",
-    background: "fotos/kosmo.jpg"
+    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Hlib",
     desc: "GTA V team, 170fps+ player.",
     img: "fotos/hleb.jpg",
-    background: "fotos/kosmo.jpg"
+    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Artem",
     desc: "The best Stellaris player, 60fps peek.",
     img: "fotos/art.jpg",
-    background: "fotos/kosmo.jpg"
+    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Dima",
     desc: "The strongest man in the world, Clash royal's my LIFEEEEE.",
     img: "fotos/dima.jpg",
-    background: "fotos/kosmo.jpg"
+    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Vlad",
     desc: "This is a dota legend, legends are made about him.",
     img: "fotos/vladik.jpg",
-    background: "fotos/kosmo.jpg"
+    background: "fotos/bg-kosmo.jpg"
   }
 ];
 
