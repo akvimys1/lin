@@ -5,31 +5,26 @@ const people = [
     name: "Ruslan",
     desc: "Linux fan, always high tab.",
     img: "fotos/ruslan.jpg",
-    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Hlib",
     desc: "GTA V team, 170fps+ player.",
     img: "fotos/hleb.jpg",
-    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Artem",
     desc: "The best Stellaris player, 60fps peek.",
     img: "fotos/art.jpg",
-    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Dima",
     desc: "The strongest man in the world, Clash royal's my LIFEEEEE.",
     img: "fotos/dima.jpg",
-    background: "fotos/bg-kosmo.jpg"
   },
   {
     name: "Vlad",
     desc: "This is a dota legend, legends are made about him.",
     img: "fotos/vladik.jpg",
-    background: "fotos/bg-kosmo.jpg"
   }
 ];
 
@@ -55,10 +50,12 @@ setTimeout(() => {
 
   panel.classList.add("show");
 
-  panel.style.backgroundImage = `url(${person.background})`;
+  panel.style.backgroundImage = "linear-gradient(to bottom, black, #01017f, black)";
   panel.style.backgroundSize = "cover";
   panel.style.backgroundPosition = "center";
   panel.style.backgroundRepeat = "no-repeat";
+  panel.style.backgroundBlendMode = "normal"; // нормальный режим без затемнения
+  panel.style.backgroundColor = ""; // убираем затемнение
 
   panel.classList.add("show");
   
