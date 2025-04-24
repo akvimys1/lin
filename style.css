@@ -50,7 +50,7 @@ body {
 
 /* Инфо панель */
 .info-panel {
-  background: url("fotos/kosmo.jpg") no-repeat center center;
+  background: linear-gradient(to bottom,black, #01017f, black);
   padding: 20px;
   border-radius: 10px;
   width: 300px;
